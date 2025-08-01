@@ -1,0 +1,28 @@
+{
+  "name": "dev-tools-vue",
+  "version": "1.0.0",
+  "description": "开发工具包 - URL编码/解码、时间戳转换、二维码生成、JSON格式化",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  },
+  "keywords": [
+    "vue",
+    "dev-tools",
+    "url-encoder",
+    "timestamp",
+    "qrcode"
+  ],
+  "author": "Developer",
+  "license": "MIT"
+} 
