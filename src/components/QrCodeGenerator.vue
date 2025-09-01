@@ -168,7 +168,7 @@ export default {
 .qr-textarea {
   min-height: 96px !important;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.5;
   resize: none;
   overflow-y: hidden;
@@ -225,4 +225,4 @@ export default {
     max-width: none;
   }
 }
-</style> 
+</style>

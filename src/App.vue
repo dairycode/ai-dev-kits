@@ -32,6 +32,8 @@ import UrlEncoder from './components/UrlEncoder.vue'
 import TimestampConverter from './components/TimestampConverter.vue'
 import QrCodeGenerator from './components/QrCodeGenerator.vue'
 import JsonFormatter from './components/JsonFormatter.vue'
+import Base64Encoder from './components/Base64Encoder.vue'
+import HashEncoder from './components/HashEncoder.vue'
 
 export default {
   name: 'App',
@@ -39,7 +41,9 @@ export default {
     UrlEncoder,
     TimestampConverter,
     QrCodeGenerator,
-    JsonFormatter
+    JsonFormatter,
+    Base64Encoder,
+    HashEncoder
   },
   data() {
     return {
@@ -51,6 +55,20 @@ export default {
           icon: '🔗', 
           component: 'UrlEncoder',
           description: 'URL编码和解码工具，支持特殊字符转换'
+        },
+        { 
+          key: 'base64', 
+          title: 'Base64编码/解码', 
+          icon: '🔐', 
+          component: 'Base64Encoder',
+          description: 'Base64编码和解码工具'
+        },
+        {
+          key: 'hash',
+          title: 'Hash编码',
+          icon: '🔒',
+          component: 'HashEncoder',
+          description: 'MD5、SHA等Hash计算工具'
         },
         { 
           key: 'timestamp', 
@@ -220,4 +238,4 @@ export default {
     padding: 24px;
   }
 }
-</style> 
+</style>
