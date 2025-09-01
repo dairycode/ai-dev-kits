@@ -9,8 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.4",
-    "qrcode": "^1.5.3"
+    "crypto-js": "^4.2.0",
+    "qrcode": "^1.5.3",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
@@ -25,4 +26,4 @@
   ],
   "author": "Developer",
   "license": "MIT"
-} 
+}
