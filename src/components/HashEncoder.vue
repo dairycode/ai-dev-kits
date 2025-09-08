@@ -1,10 +1,9 @@
 <template>
   <div class="hash-encoder">
     <div class="input-section">
-      <h2>Hash编码工具</h2>
       
       <div class="form-group">
-        <label for="input-text">输入文本：</label>
+        <label for="input-text">输入文本</label>
         <textarea
           id="input-text"
           v-model="inputText"
